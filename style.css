@@ -1,3 +1,19 @@
 body{
     margin: 0px;
+    display: flex;
+}
+.container{
+    width: 200px;
+    background:blue;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.attribution{
+    display: block;
+
 }
