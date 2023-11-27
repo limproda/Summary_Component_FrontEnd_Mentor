@@ -10,6 +10,10 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
+#Links
+Live GitHub Solution: https://limproda.github.io/Summary_Component_FrontEnd_Mentor/
+Live FrontEnd Solution: https://www.frontendmentor.io/solutions/summary-component-flexbox-sXDwLwGVwo
+
 ## The challenge
 
 Your challenge is to build out this results summary component and get it looking as close to the design as possible.
