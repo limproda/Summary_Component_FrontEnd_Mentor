@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Results summary component</title>
 </head>
+
 <body>
   <div class="container">
     <div class="left-div">
-      <h2>Your Result</h2>
-      <p>76</p>
-      <p>of 100</p>
+      <div class="score-title">Your Result</div>
+      <div class="score-circle">
+        <span class="big-points">76</span>
+        <span class="small-points">of 100</span>
+      </div>
 
-      <h3>Great</h3>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
+      <h3 class="left-text"></h3>
+      <h3 class="great-text">Great</h3>
+      <p class="description">You scored higher than 65% of the people who have taken these tests.</p>
     </div>
-    <div class ="right-div">
-      <h2>Summary</h2>
-      <div>
-        <p>Reaction</p>
-        <p>80 / 100</p>
+
+    <div class="right-div">
+      <h2 class="summary-text">Summary</h2>
+      <div class="hability-pack">
+
+        <div class="skill" id="reaction">
+          <div class="text-image">
+            <image src="assets\images\icon-reaction.svg"></image>
+            <p>Reaction</p>
+          </div>
+          <p class="numbers"><span>80</span> / 100</p>
+        </div>
+
+        <div class="skill" id="memory">
+          <div class="text-image">
+            <image src="assets\images\icon-memory.svg"></image>
+            <p>Memory</p>
+          </div>
+          <p class="numbers"><span>92</span> / 100</p>
+        </div>
+
+        <div class="skill" id="verbal">
+          <div class="text-image">
+            <image src="assets\images\icon-verbal.svg"></image>
+            <p>Verbal</p>
+          </div>
+          <p class="numbers"><span>61</span> / 100</p>
+        </div>
+    
+        <div class="skill" id="visual">
+          <div class="text-image">
+            <image src="assets\images\icon-visual.svg"></image>
+            <p>Visual</p>
+          </div>
+          <p class="numbers"><span>72</span> / 100</p>
+        </div>
       </div>
-      <div id="reaction">
-        <p>Reaction</p>
-        <p>80 / 100</p>
-      </div>
-      <div id="memory">
-        <p>Memory</p>
-        <p>92 / 100</p>
-      </div>
-      <div>
-        <p id="verbal">Verbal</p>
-        <p>61 / 100</p>
-      </div>
-      <div id="visual">
-        <p>Visual</p>
-        <p>72 / 100</p>
-      </div>
-      <div>Continue</div>
+  
+      <button class="button">Continue</button>
     </div>
   </div>
-  <div class="attribution">
+  <!--   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Luigi Michele Improda</a>.
-  </div>
+  </div> -->
 </body>
+
 </html>
