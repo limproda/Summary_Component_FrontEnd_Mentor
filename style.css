@@ -39,7 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40vw;
+    width: 600px;
     box-shadow: 1rem 1rem 3rem var(--pale_blue);
     border-radius: 20px;
 }
